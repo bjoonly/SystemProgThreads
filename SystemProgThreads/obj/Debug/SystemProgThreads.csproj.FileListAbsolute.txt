@@ -1,0 +1,15 @@
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\bin\Debug\SystemProgThreads.exe.config
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\bin\Debug\SystemProgThreads.exe
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\bin\Debug\SystemProgThreads.pdb
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\SystemProgThreads.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\SystemProgThreads_MarkupCompile.cache
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\SystemProgThreads_MarkupCompile.lref
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\SystemProgThreads.g.resources
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\SystemProgThreads.Properties.Resources.resources
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\SystemProgThreads.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\SystemProgThreads.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\SystemProgThreads.exe
+C:\Users\Admin\source\repos\SystemProgThreads\SystemProgThreads\obj\Debug\SystemProgThreads.pdb

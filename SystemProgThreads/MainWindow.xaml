@@ -1,0 +1,54 @@
+﻿<Window x:Class="SystemProgThreads.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SystemProgThreads"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.21*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+
+            </Grid.RowDefinitions>
+        <DockPanel LastChildFill="False"  >
+            <TextBlock DockPanel.Dock="Left" VerticalAlignment="Top" Width="40" Height="22" Margin="5" FontSize="15">Down</TextBlock>
+            <TextBox  DockPanel.Dock="Left" VerticalAlignment="Top" Width="130"  Height="22" Margin="5" FontSize="15" Text="{Binding BottomNumber}"></TextBox>
+            <TextBlock DockPanel.Dock="Left" VerticalAlignment="Top" Width="20"  Height="22" Margin="5" FontSize="15">Up</TextBlock>
+            <TextBox  DockPanel.Dock="Left" VerticalAlignment="Top" Width="130"  Height="22" Margin="5" FontSize="15" Text="{Binding UpperNumber}"></TextBox>
+        </DockPanel>
+            <DockPanel Grid.Row="1" LastChildFill="False">
+             <Button  Width="70"  Height="30" Margin="5" FontSize="15" Command="{Binding PrimaryNumbersStartCommand}">Start</Button>
+            <Button Width="70"  Height="30" Margin="5" FontSize="15" Command="{Binding PrimaryNumbersStopCommand}">Stop</Button>
+            <Button Width="70"  Height="30" Margin="5" FontSize="15" Command="{Binding PrimaryNumbersPauseCommand}">Pause</Button>
+            <Button Width="70"  Height="30" Margin="5" FontSize="15" Command="{Binding PrimaryNumbersContinueCommand}">Continue</Button>
+            </DockPanel>
+        </Grid>
+        
+        <DockPanel Grid.Column="1" LastChildFill="False">
+            <Button Width="70" Height="30" VerticalAlignment="Bottom" Margin="5" FontSize="15" Command="{Binding FibonacciNumbersStartCommand}">Start</Button>
+            <Button Width="70" Height="30" VerticalAlignment="Bottom" Margin="5" FontSize="15" Command="{Binding FibonacciNumbersStopCommand}">Stop</Button>
+            <Button Width="70" Height="30" VerticalAlignment="Bottom" Margin="5" FontSize="15" Command="{Binding FibonacciNumbersPauseCommand}">Pause</Button>
+            <Button Width="70" Height="30" VerticalAlignment="Bottom" Margin="5" FontSize="15" Command="{Binding FibonacciNumbersContinueCommand}">Continue</Button>
+
+
+        </DockPanel>
+        <ListBox Grid.Row="1" Grid.Column="0" ItemsSource="{Binding PrimaryNumbers}" ></ListBox>
+        <ListBox Grid.Row="1" Grid.Column="1" ItemsSource="{Binding FibonacciNumbers}"  ></ListBox>
+
+
+
+    </Grid>
+</Window>
